@@ -1,0 +1,328 @@
+/* font-family: 'Kaushan Script', cursive; */
+/* common start */
+body{
+    font-family: 'Syne Mono', monospace ;
+    font-size: 16px;
+    font-weight:400;
+    color: #ffffff;
+}
+/* common end  */
+/* header start */
+/* main image start */
+.main-image{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* main image end */
+/* menubar start */
+.menubar{
+    padding-bottom: 100px;
+}
+.menu ul li a{
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff !important;
+    padding-right: 20px !important;
+}
+.menu ul li a:hover{
+    color: rgb(93, 145, 241) !important;
+    transition: .9s;
+}
+.m-search{
+
+}
+.t-search{
+    text-align: right;
+}
+/* menubar end */
+/* banner start */
+.banner{
+    padding-bottom: 100px;
+}
+.b-h1{
+    padding-bottom: 50px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+}
+.b-h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.b-button{
+    width: 150px;
+    height: 30px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.b-button:hover{
+    background-color: rgb(93, 145, 241);
+}
+.b-p{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/* banner end */
+/* header end */
+/* story start */
+.story{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.sf-h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    color: #222328;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sf-h2{
+    padding-bottom: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.ss-h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+}
+.ss-p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+}
+.ss-button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #222328;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ss-button:hover{
+    background-color: rgb(93, 145, 241);
+}
+/* story end */
+/* info start */
+/* frist row */
+.info{
+    padding-bottom: 100px;
+    background-color: #222328;
+}
+.info-h1{
+    padding-top: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* second row */
+.info-p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.info-p1{
+    font-size: 18px;
+}
+.info-p2{
+    font-size: 18px;
+}
+.info-button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.info-button:hover{
+    background-color: rgb(93, 145, 241);
+}
+/* info end */
+/* discount start */
+.discount{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.d-frist{
+    padding-bottom: 30px;
+}
+.d-h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+}
+.d-p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #222328;
+    text-align: center;
+}
+.d-button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #222328;
+    color: #ffffff;
+}
+.d-button:hover{
+    background-color: rgb(93, 145, 241);
+}
+/* discount end */
+/* owner start */
+.owner{
+    padding-top: 10rem;
+    background-image: url(../image/owner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.o-h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.o-p{
+    padding-bottom: 700px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+/* owner end */
+/* owner-d start */
+.od{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.od-h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #222328;
+    text-align: center;
+}
+.od-fp{
+    font-size: 16px;
+    font-weight: 400;
+    color: #222328;
+    text-align: center;
+}
+.od-f{
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+.od-sp{
+    font-size: 25px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+}
+.od-spp{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222328;
+    text-align: center;
+}
+/* owner-d end */
+/* email start */
+.email{
+    padding-top: 10rem;
+    background-image: url(../image/email.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.e-h1{
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+.e-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.e-form{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+.ef-email{
+    padding-left: 40px;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.ef-button{
+    border: none;
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ef-button:hover{
+    background-color: rgb(93, 145, 241);
+}
+/* email end */
+/* foooter start */
+footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.f-h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #222328;
+}
+.f-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #222328;
+}
+.f-li{
+    font-size: 40px;
+    color: #222328;
+    padding-right: 10px;
+}
+.f-i:hover{
+    color: rgb(93, 145, 241);
+}
+.f-lii{
+    font-size: 20px;
+    font-weight: 400;
+    color: #222328;
+}
+/* footer end */
